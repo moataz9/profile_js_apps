@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  border: 5px solid #ccc;
+}
+section:first-child {
+  background-color: aqua;
+}
+section:nth-child(2) {
+  background-color: burlywood;
+}
+section:nth-child(3) {
+  background-color: cadetblue;
+}
+section:nth-child(4) {
+  background-color: chartreuse;
+}
+section:nth-child(5) {
+  background-color: darkkhaki;
+}
+section.active-sect {
+  background-color: blueviolet;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
